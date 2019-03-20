@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://loern.dev/"/>
-  <updated>2019-03-19T06:43:04.428Z</updated>
+  <updated>2019-03-20T16:03:43.247Z</updated>
   <id>https://loern.dev/</id>
   
   <author>
@@ -17,16 +17,25 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>我的第一篇博客</title>
-    <link href="https://loern.dev/2019/03/19/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://loern.dev/2019/03/19/我的第一篇博客/</id>
+    <title>我的第一篇文章</title>
+    <link href="https://loern.dev/2019/03/19/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>https://loern.dev/2019/03/19/我的第一篇文章/</id>
     <published>2019-03-19T06:43:04.000Z</published>
-    <updated>2019-03-19T06:43:04.428Z</updated>
+    <updated>2019-03-20T16:03:43.247Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="为什么要突然想起来要搞个个人网站"><a href="#为什么要突然想起来要搞个个人网站" class="headerlink" title="为什么要突然想起来要搞个个人网站"></a>为什么要突然想起来要搞个个人网站</h1><p> 其实这个想法一直都存在,前前后后也折腾了很多次,从早期的wordpress到jekyii都是半途而废,归结下来就几点</p><ul><li>么有时间</li><li>么有持久度</li><li>技术太差,么有积累</li><li><p>还有就是业余时间都用来挥霍了 </p><p>现如今重新拾起来,也是想记录一下自己的工作积累以及学习心得,记录下自己碰到的技术难题和解决办法以便更好地去学习和工作，同时还可以记录下自己的成长经历，以后看看也会有所感触吧<br>当然最后必不可少的还有 “ZB” 哈哈</p></li></ul><hr><h1 id="个人网站的搭建"><a href="#个人网站的搭建" class="headerlink" title="个人网站的搭建"></a>个人网站的搭建</h1><p> 摒弃了wordpress/jekyii的繁琐,最后选择hexo,主要是因为</p><ul><li>强大的插件库</li><li>丰富的主题库</li><li>基于nodejs(偶尔自己也可以进行一些简单插件的开发)</li><li><p>还有其他的尚未探索的其他优点</p><p>选择好了静态网站框架,接下来就差环境了,因为是静态网站所以我这选择了github pages ,当然现在很多人转投gitlab，那是后话哈,<br>在此简单归结一下步骤哈</p></li><li>github上创建一个 xxx.github.io的空项目 </li><li>本地开发环境安装nodejs环境(这里就不重复介绍不知道怎么安装的<a href="https://www.baidu.com/s?wd=%E6%80%8E%E4%B9%88%E5%AE%89%E8%A3%85nodejs" target="_blank" rel="noopener">百度</a>哈</li><li>本地安装hexo(<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">文档</a>)</li><li><p>修改文件夹下的_config.yml配置,文档最后</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:xxx/xxx.github.io.git //github项目地址</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></li><li><p>安装hexo-deployer-git,执行hexo d 命令即可,当然在deploy之前可以使用hexo s ,本地将启动一下看看什么效果</p></li></ul><hr><h1 id="愿景"><a href="#愿景" class="headerlink" title="愿景"></a>愿景</h1><p> 希望这是一个良好的开端,以及自己能够持之以恒的坚持下去,最后引用一下 <code>荀况</code> 的名言 : </p><blockquote><p> 锲而舍之，朽木不折；锲而不舍，金石可镂 </p></blockquote><p>结束本篇文章吧.</p>]]></content>
     
     <summary type="html">
     
+      
+      
+        &lt;h1 id=&quot;为什么要突然想起来要搞个个人网站&quot;&gt;&lt;a href=&quot;#为什么要突然想起来要搞个个人网站&quot; class=&quot;headerlink&quot; title=&quot;为什么要突然想起来要搞个个人网站&quot;&gt;&lt;/a&gt;为什么要突然想起来要搞个个人网站&lt;/h1&gt;&lt;p&gt; 其实这个想法一直都存在,前
+      
+    
     </summary>
     
+    
+      <category term="个人网站" scheme="https://loern.dev/tags/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/"/>
     
   </entry>
   
